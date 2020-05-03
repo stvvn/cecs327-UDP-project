@@ -1,0 +1,17 @@
+How to run UDPClient and UDPServer demo:
+
+1) Make sure the JDE and JDK version match.
+2) Open cmd or powershell or terminal alternative.
+3) Locate both files in separate terminals and run	
+	>javac Server
+	>javac Client
+4) Now we can run the server first
+	>java Server.class
+	any port for example 8080
+5) We can now run the client
+	>java Client.class
+	IP: 127.0.0.1
+	Port: 8080
+	Message: hello world
+	
+6) The server will echo your message
